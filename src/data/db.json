@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "id": "d843",
+      "nombre": "¿Cómo un desarrollador Front End utiliza el Figma?",
+      "categoria": "Frontend",
+      "imagen": "data:image/png;base64,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",
+      "link": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "descripcion": "Aprende a utilizar figma el cual te ayudara en tu preparacion para ser desarrollador frontend"
+    },
+    {
+      "id": null,
+      "nombre": "¿Qué es SQL y NoSQL?",
+      "categoria": "Backend",
+      "imagen": "https://pandorafms.com/blog/wp-content/uploads/2024/02/graph-sqlvsnosqul-2.png",
+      "link": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+      "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo."
+    },
+    {
+      "id": null,
+      "nombre": "¿Qué significa ser un Desarrollador Full Stack?",
+      "categoria": "Fullstack",
+      "imagen": "https://www.ldhmsoftware.com/wp-content/uploads/2023/11/0_cl7fc6pt1MHjIF4K-1024x622.png",
+      "link": "https://www.youtube.com/watch?v=eejIHbOk_uI",
+      "descripcion": "Un desarrollador Full Stack es quien se encarga del Front End y Back End de una aplicación, ¿no? Y si te digo que hay mucho más que eso.\n\nEste es el tema del que estamos hablando en este video, sobre los desarrolladores de Full Stack."
+    }
+  ]
+}

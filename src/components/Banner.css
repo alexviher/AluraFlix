@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('robot.jpg'); 
+    background-color: #0d1117;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 123, 255, 0.7); 
+  }
+  
+  .banner-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .banner-image img {
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  

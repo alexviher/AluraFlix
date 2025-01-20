@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .header {
+    background-color: #1c1c1c;
+    padding: 40px;
+  
+  
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px ;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  
+  .nuevo-video-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+  }
+  
+  .form-video {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #2a2a2a;
+    color: #fff;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-guardar {
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-guardar:hover {
+    background-color: #00a5c4;
+  }
+  
+  .btn-limpiar {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-limpiar:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .tarjetas-container {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+  }
+
+  .tarjeta {
+    padding: 15px;
+    font-size: 14px; 
+  }
+
+  header, footer {
+    padding: 15px;
+    font-size: 16px; 
+  }
+}
+
+
+@media screen and (max-width: 428px) {
+  .tarjetas-container {
+    grid-template-columns: 1fr; 
+    gap: 15px; 
+  }
+
+  .tarjeta {
+    padding: 10px;
+    font-size: 12px; 
+  }
+
+  header {
+    font-size: 14px; 
+    text-align: center; 
+  }
+
+  footer {
+    font-size: 12px; 
+    text-align: center; 
+  }
+
+  button {
+    font-size: 12px; 
+    padding: 8px 12px;
+  }
+}
